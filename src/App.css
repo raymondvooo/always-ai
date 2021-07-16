@@ -1,6 +1,5 @@
-.App {
-  text-align: center;
-}
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +34,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.col {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.font-weight-bold {
+  font-weight: 700;
+}
+.divider {
+  width: 95%;
+  height: 1px;
+  background: #E8ECED;
+  margin: 13px 0;
+}
+
+.sub-title {
+  color: #6b727a;
+  font-size: 11px;
+}
+.inner-ring {
+  position: relative;
+  height: 64px;
+  width: 64px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 12%);
+  border-radius: 50%;
+  transform: translate(22%,22%);
+}
+.inference-ring {
+  position: relative;
+  transform: translate(-7%,-68%);
+}
+.outer-ring {
+  position: relative;
+  height: 92px;
+  width: 92px;
+  background-color: #F7F9FA;
+  border-radius: 50%;
+}
+.use-this-model {
+  color: #A30640;
+    font-size: 14px;
+    line-height: 14px;
+    cursor: pointer;
+}
+.use-this-model:hover {
+  text-decoration: underline;
 }
